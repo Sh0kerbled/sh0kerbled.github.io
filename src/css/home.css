@@ -85,7 +85,6 @@ body {
     font-size: 32px;
     font-weight: 700;
     margin: 0;
-    animation: animation 1s forwards;
     padding-bottom: 23px;
 }
 
@@ -93,7 +92,6 @@ body {
     color: gray;
     font-size: 16px;
     font-weight: 400;
-    animation: animation 1s forwards;
     margin: 0;
     margin: 0 0 25px 0;
 }
@@ -107,7 +105,6 @@ body {
     border: 1px solid gray;
     border-radius: 5px;
     text-align: center;
-    animation: animation 1s forwards;
     margin-bottom: 41px;
     font-weight: 400;
 }
@@ -128,29 +125,18 @@ body {
     justify-content: center;
     height: 400px;
     margin-bottom: 138px;
-    opacity: 0;
-}
-
-.is-visible {
-    opacity: 1;
 }
 
 .feature.is-visible:nth-child(1) {
     align-self: end;
-    animation: animation 1s forwards;
-    animation-delay: 0.2s;
 }
 
 .feature.is-visible:nth-child(2) {
     align-self: center;
-    animation: animation 1s forwards;
-    animation-delay: 0.4s;
 }
 
 .feature.is-visible:nth-child(3) {
     align-self: start;
-    animation: animation 1s forwards;
-    animation-delay: 0.6s;
 }
 
 .features .feature:nth-child(1) {
@@ -169,7 +155,6 @@ body {
     color: white;
     margin: 0;
     font-size: 32px;
-    animation: animation 1s forwards;
 }
 
 .feature-name {
@@ -541,23 +526,14 @@ footer {
     justify-content: space-between;
     color: gray;
     font-size: 16px;
-    font-weight: 400;
     margin-bottom: 60px;
+}
+
+.info h3 {
+    font-weight: 500;
 }
 
 .links {
     display: flex;
     gap: 12px;
-}
-
-@keyframes animation {
-    0% {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }

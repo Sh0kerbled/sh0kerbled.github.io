@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Hind:wght@300;400;500;600;700&family=Lemonada:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/animate.css">
     <title>PlayCore</title>
     <link rel="icon" href="/images/logo/pornhub-icon.png" draggable="false" type="image/png">
 </head>
@@ -24,9 +25,9 @@
                 </div>
             </a>
             <div class="header-links">
-                <a href="#">Главная</a>
+                <a href="home.html">Главная</a>
                 <a href="partnership.html">Партнерство</a>
-                <a href="#">Цены</a>
+                <a class="price" href="">Цены</a>
                 <a href="#">Зарегестрируйся</a>
                 <a href="#">RU</a>
             </div>
@@ -34,29 +35,30 @@
     </header>
     <section class="hero">
         <div class="hero-content">
-            <h1 class="hero-title animation" data-anim>Надежный бесплатный хостинг игровых серверов</h1>
-            <p class="hero-description animation" data-anim>С большой скоростью сети и легкой панелью управления</p>
-            <a class="hero-button animation" data-anim href="#">Зарегестрируйся</a>
+            <h1 class="wow fadeInRight hero-title" data-anim>Надежный бесплатный хостинг игровых серверов</h1>
+            <p class="wow fadeInRight hero-description" data-anim>С большой скоростью сети и легкой панелью управления
+            </p>
+            <a class="wow fadeInRight hero-button" data-anim href="#">Зарегестрируйся</a>
             <img class="hero-image" src="/images/home/Group 3.png" draggable="false" alt="">
         </div>
     </section>
     <section class="features">
-        <h2 class="features-title animation" data-anim>Почему мы?</h2>
+        <h2 class="wow fadeInRight features-title" data-anim>Почему мы?</h2>
         <div class="features-list">
-            <div class="feature animation">
+            <div class="wow fadeInRight feature">
                 <h3 class="feature-name">Удобно</h3>
                 <p class="feature-description">Наши профессиональные панели управления, позволяет пользоваться нашим
                     сервисом в любое время и за
                     любым устройством.</p>
             </div>
-            <div class="feature animation" data-anim>
+            <div class="wow fadeInRight feature" data-anim>
                 <h3 class="feature-name">Стабильно</h3>
                 <p class="feature-description">Наше оборудование имеет безпрерывную поддержку , низкий пинг и отсутствие
                     лагов. А скорость работы
                     позволит установить
                     сервер за 25 секунд.</p>
             </div>
-            <div class="feature animation" data-anim>
+            <div class="wow fadeInRight feature" data-anim>
                 <h3 class="feature-name">Безопасно</h3>
                 <p class="feature-description">У нас установлен сертификат безопасности, все данные передаются в
                     зашифрованном виде.</p>
@@ -64,36 +66,36 @@
         </div>
     </section>
     <section class="services">
-        <div class="service-title animation" data-anim>
+        <div class="wow fadeInRight service-title" data-anim>
             <h2 class="service-support">Поддерживаемые сервисы</h2>
             <p class="service-plans">В будущем мы планируем пополнить этот список</p>
         </div>
         <div class="service-container">
-            <div class="service">
+            <div class="wow fadeInRight service">
                 <img src="/images/home/image 3.png" alt="">
                 <div class="service-info">
-                    <h3 class="service-name animation">Node.js</h3>
+                    <h3 class="wow fadeInRight service-name">Node.js</h3>
                     <p class="service-description">Дискорд и телеграм боты</p>
                 </div>
             </div>
-            <div class="service">
+            <div class="wow fadeInRight service">
                 <img src="/images/home/image 4.png" alt="">
                 <div class="service-info">
-                    <h3 class="service-name animation">Minecraft</h3>
+                    <h3 class="wow fadeInRight service-name">Minecraft</h3>
                     <p class="service-description">Vanilla Sponge Spigot Forge</p>
                 </div>
             </div>
-            <div class="service">
+            <div class="wow fadeInRight service">
                 <img src="/images/home/image 5.png" alt="">
                 <div class="service-info">
-                    <h3 class="service-name animation">Python</h3>
+                    <h3 class="wow fadeInRight service-name">Python</h3>
                     <p class="service-description">Дискорд боты сервера</p>
                 </div>
             </div>
-            <div class="service">
+            <div class="wow fadeInRight service">
                 <img src="/images/home/image 4.png" alt="">
                 <div class="service-info">
-                    <h3 class="service-name animation">Minecraft Bedrock</h3>
+                    <h3 class="wow fadeInRight service-name">Minecraft Bedrock</h3>
                     <p class="service-description">Vanilla Sponge Spigot Forge</p>
                 </div>
             </div>
@@ -102,40 +104,43 @@
     <section class="block">
         <div class="block-info">
             <div class="block-content">
-                <h2 class="block-name">Удобная панель управления</h2>
-                <p class="block-description">Быстрая и легкая панель позволит использовать наш хостинг без проблем. С
+                <h2 class="wow fadeInRight block-name">Удобная панель управления</h2>
+                <p class="wow fadeInRight block-description">Быстрая и легкая панель позволит использовать наш хостинг
+                    без проблем. С
                     ней вы
                     в разы облегчите создание
                     вашего
                     сервера.</p>
-                <a class="block-button" href="#">Перейти к панели</a>
+                <a class="wow fadeInRight block-button" href="#">Перейти к панели</a>
             </div>
             <img class="block-image" src="/images/home/image 6.png" alt="">
         </div>
         <div class="block-info">
             <img class="block-image" src="/images/home/image 7.png" alt="">
             <div class="block-content">
-                <h2 class="block-name">Система партнерства</h2>
-                <p class="block-description">Если у вас есть аудитория в какой-то социальной сети, которая интересуется
+                <h2 class="wow fadeInRight block-name">Система партнерства</h2>
+                <p class="wow fadeInRight block-description">Если у вас есть аудитория в какой-то социальной сети,
+                    которая интересуется
                     серверами хостинга, то вы можете смело подать
                     на партнёрство с нами. И получите за это большие призы</p>
-                <a class="block-button" href="#">Узнать больше</a>
+                <a class="wow fadeInRight block-button" href="#">Узнать больше</a>
             </div>
         </div>
         <div class="block-info">
             <div class="block-content">
-                <h2 class="block-name">Свое комьюнити</h2>
-                <p class="block-description">На нашем сервере discord вы найдете розыгрыши призов и подарков. А также
+                <h2 class="wow fadeInRight block-name">Свое комьюнити</h2>
+                <p class="wow fadeInRight block-description">На нашем сервере discord вы найдете розыгрыши призов и
+                    подарков. А также
                     новости и частые обновления</p>
-                <a class="block-button" href="#">Узнать больше</a>
+                <a class="wow fadeInRight block-button" href="#">Узнать больше</a>
             </div>
             <img class="block-image" src="/images/home/image 8.png" alt="">
         </div>
     </section>
     <section class="plans">
-        <h2 class="plans-name">Наши тарифы</h2>
+        <h2 class="wow fadeInRight plans-name">Наши тарифы</h2>
         <div class="plan-container">
-            <div class="plan">
+            <div class="wow fadeInRight plan">
                 <h2 class="plan-name">Free</h2>
                 <h2 class="plan-price">0</h2>
                 <ul class="plan-spec">
@@ -147,7 +152,7 @@
                 </ul>
                 <a class="plan-button" href="#">Купить</a>
             </div>
-            <div class="plan">
+            <div class="wow fadeInRight plan">
                 <h2 class="plan-name">Silver</h2>
                 <h2 class="plan-price">50</h2>
                 <ul class="plan-spec">
@@ -159,7 +164,7 @@
                 </ul>
                 <a class="plan-button" href="#">Купить</a>
             </div>
-            <div class="plan">
+            <div class="wow fadeInRight plan">
                 <h2 class="plan-name">Gold</h2>
                 <h2 class="plan-price">150</h2>
                 <ul class="plan-spec">
@@ -171,7 +176,7 @@
                 </ul>
                 <a class="plan-button" href="#">Купить</a>
             </div>
-            <div class="plan">
+            <div class="wow fadeInRight plan">
                 <h2 class="plan-name">Platinum
                 </h2>
                 <h2 class="plan-price">500</h2>
@@ -188,20 +193,20 @@
     </section>
     <section class="contact">
         <div class="contact-info">
-            <h2 class="contact-name">Остались вопросы?</h2>
-            <p class="contact-description">support@PlayCore.kz</p>
+            <h2 class="wow fadeInRight contact-name">Остались вопросы?</h2>
+            <p class="wow fadeInRight contact-description">support@PlayCore.kz</p>
         </div>
         <form class="contact-form" action="#">
-            <input class="contact-input" type="text" placeholder="Имя">
-            <input class="contact-input" type="email" placeholder="Email">
-            <textarea class="contact-textarea" placeholder="Сообщение"></textarea>
-            <button class="contact-button" type="submit">Отправить</button>
+            <input class="wow fadeInRight contact-input" type="text" placeholder="Имя">
+            <input class="wow fadeInRight contact-input" type="email" placeholder="Email">
+            <textarea class="wow fadeInRight contact-textarea" placeholder="Сообщение"></textarea>
+            <button class="wow fadeInRight contact-button" type="submit">Отправить</button>
         </form>
     </section>
     <section class="cta">
         <div class="cta-container">
-            <h2 class="cta-name">Все еще ждешь?</h2>
-            <a class="cta-button" href="#">Начни сейчас →</a>
+            <h2 class="wow fadeInRight cta-name">Все еще ждешь?</h2>
+            <a class="wow fadeInRight cta-button" href="#">Начни сейчас →</a>
         </div>
     </section>
     <footer>
@@ -243,7 +248,7 @@
                 </div>
             </div>
             <div class="info">
-                <h3>1894 - 2025 LineNodes. Мы связаны с P Diddy.</h3>
+                <h3>1894 - 2025 PlayCore. Мы связаны с P Diddy.</h3>
                 <div class="links">
                     <a href="#"><img src="/images/home/Vector.png" alt=""></a>
                     <a href="#"><img src="/images/home/Vector 2.png" alt=""></a>
@@ -253,6 +258,10 @@
         </div>
     </footer>
     <script src="/src/js/script.js"></script>
+    <script src="/src/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

@@ -7,6 +7,7 @@
 body {
     background-color: #060606;
     font-family: "Montserrat";
+    font-weight: 400;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -51,13 +52,13 @@ body {
     margin-right: 0;
 }
 
-.header-links a:nth-child(4) {
+.header-links a:nth-child(3) {
     border: 1px solid gray;
     padding: 10px 19px;
     border-radius: 5px;
 }
 
-.header-links a:nth-child(4):hover {
+.header-links a:nth-child(3):hover {
     border: 1px solid white;
     padding: 10px 19px;
     border-radius: 5px;
@@ -65,4 +66,212 @@ body {
 
 .header-links a:hover {
     color: white;
+}
+
+header {
+    margin: 0 0 82px 0;
+}
+
+.solve-req {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 33px 0;
+    font-size: 32px;
+}
+
+.req-info {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.req-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 20px 20px;
+    color: gray;
+}
+
+.req-description {
+    color: gray;
+    font-size: 18px;
+}
+
+.req-container:hover {
+    border: 1px solid white;
+    color: white;
+    cursor: default;
+}
+
+.req-name {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    font-size: 34px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 37px 0;
+}
+
+.send-form {
+    display: grid;
+    justify-content: center;
+}
+
+.send-form input {
+    width: 457px;
+    height: 36px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 11px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid gray;
+}
+
+.send-form button {
+    max-width: 128px;
+    background: none;
+    color: white;
+    padding: 12px 18px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 0 0 165px;
+}
+
+.send-form button:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.send-form h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 35px 0;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 620px;
+    gap: 20px;
+}
+
+.info-container {
+    display: grid;
+    justify-content: center;
+    color: white;
+    border: 1px solid gray;
+    max-width: 300px;
+    padding: 25px 32px;
+    border-radius: 6px;
+}
+
+.info-name {
+    font-weight: 500;
+    padding: 0 0 17px 0;
+}
+
+.info-description {
+    color: gray;
+}
+
+.info h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 28px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 194px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-class {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 22px 22px;
+    margin-bottom: 24px;
+}
+
+.faq {
+    max-width: 257px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    text-decoration: none;
+}
+
+.footer-name h3 {
+    margin: 0;
+    color: white;
+}
+
+.footer-image {
+    width: 36px;
+    height: 36px;
+}
+
+.footer-name {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-description {
+    color: gray;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.footer-description:hover {
+    color: white;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.info-footer h3 {
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
 }
