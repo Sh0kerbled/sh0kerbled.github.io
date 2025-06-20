@@ -41,6 +41,11 @@ body {
     font-weight: 500;
 }
 
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
 .header-links a {
     color: gray;
     text-decoration: none;
@@ -52,13 +57,13 @@ body {
     margin-right: 0;
 }
 
-.header-links a:nth-child(3) {
+.reg {
     border: 1px solid gray;
     padding: 10px 19px;
     border-radius: 5px;
 }
 
-.header-links a:nth-child(3):hover {
+.reg:hover {
     border: 1px solid white;
     padding: 10px 19px;
     border-radius: 5px;
@@ -66,6 +71,52 @@ body {
 
 .header-links a:hover {
     color: white;
+}
+
+.language {
+    display: block;
+}
+
+.language-current:hover::after {
+    transform: rotate(180deg);
+}
+
+.language-current {
+    color: gray;
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.header .language-current::after {
+    content: '';
+    background-image: url(/images/home/Vector7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    width: 16px;
+    aspect-ratio: 1;
+    transition: transform 0.2s ease;
+}
+
+.language-list {
+    display: grid;
+    position: absolute;
+    align-items: center;
+    visibility: hidden;
+    transition: transform 0.2s ease;
+}
+
+.language-name {
+    border: 1px solid gray;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 4px 0 2px 0;
+}
+
+.language:hover .language-list {
+    visibility: visible;
 }
 
 header {
