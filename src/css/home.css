@@ -588,3 +588,146 @@ footer {
     display: flex;
     gap: 12px;
 }
+
+@media (max-width: 575.98px) {
+    .header-class {
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .header-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .hero-title,
+    .features-title,
+    .block-name,
+    .service-support,
+    .contact-name,
+    .cta-name {
+        font-size: 24px;
+    }
+
+    .feature,
+    .service,
+    .plan {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .plan-container,
+    .features-list,
+    .service-container,
+    .block-info,
+    .contact,
+    .footer-class {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .contact-info,
+    .cta-container,
+    .service-title,
+    .block-description {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-input,
+    .contact-textarea {
+        width: 100%;
+    }
+
+    .cta-container,
+    .block-info {
+        width: 100%;
+    }
+
+    .footer-class {
+        padding: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .header-class,
+    .features-list,
+    .service-container,
+    .block-info,
+    .plan-container,
+    .contact,
+    .footer-class {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .feature,
+    .service,
+    .plan,
+    .cta-container,
+    .block-info {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-input,
+    .contact-textarea {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-class {
+        margin: 20px 5%;
+    }
+
+    .plan-container,
+    .features-list,
+    .block-info,
+    .contact,
+    .footer-class {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .plan,
+    .feature,
+    .service {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-class {
+        margin: 30px 8%;
+    }
+
+    .feature,
+    .service,
+    .plan {
+        max-width: 300px;
+    }
+
+    .contact-input {
+        width: 320px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-class {
+        margin: 33px 10%;
+    }
+
+    .feature,
+    .service,
+    .plan {
+        max-width: 327px;
+    }
+}
